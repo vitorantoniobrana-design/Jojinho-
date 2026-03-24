@@ -1,11 +1,9 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-from Entity import Entity
-
-class Background(Entity):
+class EntityFactory:
     def __init__(self):
         pass
 
-    def move(self, ):
+    def get_entity(self, entity_type):
         pass

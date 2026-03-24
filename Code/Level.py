@@ -1,11 +1,11 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class Entity:
+class Level:
     def __init__(self):
+        self.window Surface = None
+        self.entity_list = None
         self.name = None
-        self.surf = None
-        self.rect = None
 
-    def move(self, ):
+    def run(self, ):
         pass
